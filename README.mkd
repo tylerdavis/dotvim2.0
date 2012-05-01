@@ -1,0 +1,3 @@
+>Tyler's DotVim2.0
+
+My original dotvim project has become incredible segmented and unmanageable.  This project is going to focus on organizing the vimrc, what plugins I *actually* use, and hopefully add some functionality around javascript.
