@@ -10,4 +10,4 @@ Installed plugins
 * NERDTree - https://github.com/scrooloose/nerdtree
 * Solarized - https://github.com/altercation/vim-colors-solarized
 * ctrlp - https://github.com/kien/ctrlp.vim/
-
+* Tagbar - https://github.com/majutsushi/tagbar/
