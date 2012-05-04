@@ -16,28 +16,35 @@ set laststatus=2
 " Map normal mode space to fold/unfold code
 nnoremap <space> za
 
+colorscheme solarized
+
 """"""""""""""""
 " Line numbers "
 """"""""""""""""
 set number " Enable line number column
 set numberwidth=4 " Set the column width
-        autocmd BufEnter * set relativenumber " Sets relative line numbering on every buffer
+autocmd BufEnter * set relativenumber " Sets relative line numbering on every buffer
+
+"""""""""""""""""""""""
+" Buffers and Windows "
+"""""""""""""""""""""""
+" Split window vertically
+nnoremap <leader>w <C-w>v<C-w>l 
 
 """""""""""
 " Tabbing "
 """""""""""
-
 " Python Settings @TODO - Need control statements to handle multiple filetypes
 set tabstop=4 " Tab moves 4 spaces
 set shiftwidth=4 " Autoindent moves 4 spaces
 set softtabstop=4 " Force insert mode tab to 4 spaces
 set expandtab " Tabs are spaces
 imap <S-Tab> <C-o><<
+
 " HTML Settings
 autocmd FileType html set tabstop=2
 autocmd FileType html set shiftwidth=2
 autocmd FileType html set softtabstop=2
-
 
 " Auto-indents when possible
 set autoindent
@@ -58,3 +65,10 @@ nnoremap ; :
 
 " Map jj to escape insert mode
 inoremap jj <ESC> 
+
+"""""""""""""""""""
+" Plugin Specific "
+"""""""""""""""""""
+" Launch pathogen
+call pathogen#infect()
+
