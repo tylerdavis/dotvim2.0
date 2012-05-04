@@ -1,3 +1,16 @@
->Tyler's DotVim2.0
+Tyler's DotVim2.0
+=================
 
 My original dotvim project has become incredible segmented and unmanageable.  This project is going to focus on organizing the vimrc, what plugins I *actually* use, and hopefully add some functionality around javascript.
+
+dotvim2.0 notes
+===============
+
+Must have plugins
+-----------------
+* Pathogen - https://github.com/tpope/vim-pathogen
+* Sparkup - https://github.com/rstacruz/sparkup
+* NERDTree - https://github.com/scrooloose/nerdtree
+* Solarized - http://ethanschoonover.com/solarized
+* ctrlp - https://github.com/kien/ctrlp.vim/
+

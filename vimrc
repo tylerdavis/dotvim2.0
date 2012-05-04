@@ -9,13 +9,14 @@ nnoremap <space> za
 """"""""""""""""
 set number " Enable line number column
 set numberwidth=4 " Set the column width
-set relativenumber " Set relative line numbers
 setglobal relativenumber " Set relative line numbers (globaly)
 
 
 """"""""""""""""""""""""""""""""""
 " Movement/deletion key bindings "
 """"""""""""""""""""""""""""""""""
+" Map ; to :
+nnoremap ; :
 " Map -/_ to move line up and down
 :map - ddp
 :map _ ddkp
