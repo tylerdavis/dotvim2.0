@@ -1,7 +1,7 @@
 Tyler's DotVim2.0
 =================
 
-My original dotvim project has become incredible segmented and unmanageable.  This project is going to focus on organizing the vimrc, what plugins I *actually* use, and hopefully add some functionality around javascript.
+My original dotvim project has become incredible shitty and unmanageable.  This project is going to focus on organizing the vimrc, what plugins I *actually* use, and hopefully add some functionality around javascript.
 
 Installed plugins
 -----------------
@@ -11,3 +11,4 @@ Installed plugins
 * Solarized - https://github.com/altercation/vim-colors-solarized
 * ctrlp - https://github.com/kien/ctrlp.vim/
 * Tagbar - https://github.com/majutsushi/tagbar/
+* SnipMate - https://github.com/msanders/snipmate.vim
