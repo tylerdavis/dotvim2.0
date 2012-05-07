@@ -19,3 +19,6 @@
 [submodule "bundle/zenburn"]
 	path = bundle/zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
