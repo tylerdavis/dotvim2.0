@@ -11,4 +11,4 @@ Installed plugins
 * Solarized - https://github.com/altercation/vim-colors-solarized
 * ctrlp - https://github.com/kien/ctrlp.vim/
 * Tagbar - https://github.com/majutsushi/tagbar/
-* SnipMate - https://github.com/msanders/snipmate.vim
+* SnipMate - https://github.com/tylerdavis/snipmate.vim
