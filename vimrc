@@ -76,12 +76,6 @@ set tabstop=4 " Tab moves 4 spaces
 set shiftwidth=4 " Autoindent moves 4 spaces
 set softtabstop=4 " Force insert mode tab to 4 spaces
 set expandtab " Tabs are spaces
-imap <S-Tab> <C-o><<
-
-" HTML Settings
-autocmd FileType html set tabstop=2
-autocmd FileType html set shiftwidth=2
-autocmd FileType html set softtabstop=2
 
 " Auto-indents when possible
 filetype plugin indent on
@@ -114,10 +108,6 @@ nnoremap <C-l> <C-w>l
 nnoremap j gj
 nnoremap k gk
 
-" Use tab to navigate matching bracket pairs
-nnoremap <tab> %
-vnoremap <tab> %
-
 " Backspaces in insert mode
 set backspace=indent,eol,start
 
@@ -148,3 +138,5 @@ nnoremap <leader>n :NERDTreeToggle<cr>
 let NERDTreeIgnore = ['\.pyc$']
 " Toggle Tagbar with ,t
 nnoremap <leader>t :TagbarToggle<CR>
+" Remap pep8 keybinding
+autocmd FileType python map <buffer> <leader>p :call Flake8()<CR>
