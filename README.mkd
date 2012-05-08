@@ -3,6 +3,11 @@ Tyler's DotVim2.0
 
 My original dotvim project has become incredible shitty and unmanageable.  This project is going to focus on organizing the vimrc, what plugins I *actually* use, and hopefully add some functionality around javascript.
 
+To install
+----------
+1.) `git clone git://github.com/tylerdavis/dotvim2.0.git ~/.vim`  
+2.) Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
+
 Installed plugins
 -----------------
 * Pathogen - https://github.com/tpope/vim-pathogen
