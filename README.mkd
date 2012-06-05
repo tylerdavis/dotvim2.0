@@ -17,3 +17,4 @@ Installed plugins
 * ctrlp - https://github.com/kien/ctrlp.vim/
 * Tagbar - https://github.com/majutsushi/tagbar/
 * SnipMate - https://github.com/tylerdavis/snipmate.vim
+* Syntastic - https://github.com/scrooloose/syntastic
