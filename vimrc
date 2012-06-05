@@ -140,5 +140,5 @@ let NERDTreeIgnore = ['\.pyc$']
 nnoremap <leader>t :TagbarToggle<CR>
 " Remap pep8 keybinding
 autocmd FileType python map <buffer> <leader>p :call Flake8()<CR>
-" Force SytasticCheck with ,s
-nnoremap <leader>s :SyntasticCheck<CR>
+" Open Errors window with ,s
+nnoremap <leader>e :Errors<CR>
