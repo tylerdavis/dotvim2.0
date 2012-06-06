@@ -145,4 +145,4 @@ nnoremap <leader>t :TagbarToggle<CR>
 " Remap pep8 keybinding
 autocmd FileType python map <buffer> <leader>p :call Flake8()<CR>
 " Open Errors window with ,s
-nnoremap <leader>e :Errors<CR>
+nnoremap <leader>e :Errors<CR><C-w>j
