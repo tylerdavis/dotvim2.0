@@ -23,3 +23,4 @@ Installed plugins
 * Syntastic - https://github.com/scrooloose/syntastic
 * web-indent - http://www.vim.org/scripts/script.php?script_id=3081
 * Vim-node - https://github.com/guileen/vim-node
+* AutoClose - https://github.com/vim-scripts/autoclose
