@@ -12,6 +12,7 @@ To install
 
 Installed plugins
 -----------------
+* ColorSamplePack - http://www.vim.org/scripts/script.php?script_id=625
 * Pathogen - https://github.com/tpope/vim-pathogen
 * Sparkup - https://github.com/rstacruz/sparkup
 * NERDTree - https://github.com/scrooloose/nerdtree
