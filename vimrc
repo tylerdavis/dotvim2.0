@@ -30,6 +30,8 @@ set scrolloff=5 " Minumum 5 lines visible above and below cursor line
 set showcmd " Show last command on last line
 set ttyfast " Sends more characters to the terminal for better draw
 
+nnoremap <leader>s :set spell!<cr>
+
 
 """""""""""""""""""
 " Code Completion "
