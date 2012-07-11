@@ -22,12 +22,12 @@
 [submodule "bundle/vim-flake8"]
 	path = bundle/vim-flake8
 	url = https://github.com/nvie/vim-flake8.git
-[submodule "bundle/snipmate"]
-	path = bundle/snipmate
-	url = git@github.com:tylerdavis/snipmate.vim.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = https://github.com/vim-scripts/AutoClose.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/tylerdavis/snipmate.vim
