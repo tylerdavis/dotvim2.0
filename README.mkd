@@ -53,6 +53,7 @@
 
 #### Visual mode
 * Create a code fold section - `<space>`
+* Toggle selection comment state - `,c`
 
 #### Insert mode
 * Escape from insert mode - `jj`
