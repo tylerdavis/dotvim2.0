@@ -26,3 +26,4 @@ Installed plugins
 * Vim-node - https://github.com/guileen/vim-node
 * AutoClose - https://github.com/vim-scripts/autoclose
 * vim-less - https://github.com/groenewege/vim-less
+* NERDCommenter - https://github.com/scrooloose/nerdcommenter.git

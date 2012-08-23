@@ -65,9 +65,9 @@ nnoremap <space> za
 """"""""""""""""
 " Line numbers "
 """"""""""""""""
-set number " Enable line number column
+setglobal relativenumber " Enable line number column
 set numberwidth=4 " Set the column width
-autocmd BufEnter * set relativenumber " Sets relative line numbering on every buffer
+" autocmd BufEnter * set relativenumber " Sets relative line numbering on every buffer
 
 """""""""""""""""""""""
 " Buffers and Windows "
@@ -143,6 +143,8 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <leader>n :NERDTreeToggle<cr>
 " Ignore filetypes in NERDTree
 let NERDTreeIgnore = ['\.pyc$']
+" Toggle line comment in normal mode or selection in visual mode
+map <d-/> <leader>c<space>
 " Toggle Tagbar with ,t
 nnoremap <leader>t :TagbarToggle<CR>
 " Remap pep8 keybinding
