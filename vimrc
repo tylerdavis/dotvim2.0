@@ -66,7 +66,6 @@ nnoremap <space> za
 """"""""""""""""
 " Line numbers "
 """"""""""""""""
-set number " Enable line number column
 set rnu " Enable relative line numbering
 set numberwidth=4 " Set the column width
 
