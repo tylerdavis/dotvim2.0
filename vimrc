@@ -66,9 +66,9 @@ nnoremap <space> za
 """"""""""""""""
 " Line numbers "
 """"""""""""""""
-setglobal relativenumber " Enable line number column
+set number " Enable line number column
+set rnu " Enable relative line numbering
 set numberwidth=4 " Set the column width
-" autocmd BufEnter * set relativenumber " Sets relative line numbering on every buffer
 
 """""""""""""""""""""""
 " Buffers and Windows "
