@@ -19,7 +19,7 @@
 * [vim-less](https://github.com/groenewege/vim-less)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 
-### To install [install]
+### To install
 1. `git clone git://github.com/tylerdavis/dotvim2.0.git ~/.vim`
 2. Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
 3. `cd ~/.vim && git submodule init && git submodule update`
@@ -28,16 +28,16 @@
 1. `git submodule add [submodule repository url] bundle/[submodule name]`
 2. Commit changes.
 
-### To update [update]
+### To update
 1. `git submodule foreach git pull`
 
-### To remove a plug-in submodule [remove-plugin]
+### To remove a plug-in submodule
 1. Delete relevant entries from `.gitmodules` and `.git/config` files.
 2. `git rm --cached bundle/[submodule name]` no trailing slash.
 3. Commit changes.
 4. `rm bundle/[submodule name]`
 
-### Mappings [mappings]
+### Mappings
 
 #### Normal mode
 * Toggle spell check - `,s`
