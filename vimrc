@@ -40,6 +40,7 @@ set wildmenu " Changes the way the autocomplete menu works
 set wildmode=list:longest
 " CSS Specific
 :set omnifunc=csscomplete#CompleteCSS
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 " NodeJS Specific
 au FileType javascript set dictionary+=$HOME/.vim/dict/node.dict
 
