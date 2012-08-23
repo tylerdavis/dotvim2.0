@@ -1,6 +1,6 @@
 # Tyler's DotVim2.0
 
-### Installed plugins [installed-plugins]
+### Installed plugins
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [ColorSamplePack](http://www.vim.org/scripts/script.php?script_id=625)
 * [Sparkup](https://github.com/rstacruz/sparkup)
@@ -24,7 +24,7 @@
 2. Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
 3. `cd ~/.vim && git submodule init && git submodule update`
 
-### To install a plug-in (requires pathogen support) [install-plugin]
+### To install a plug-in (requires pathogen support)
 1. `git submodule add [submodule repository url] bundle/[submodule name]`
 2. Commit changes.
 
