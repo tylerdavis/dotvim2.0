@@ -1,5 +1,13 @@
 # Tyler's DotVim2.0
 
+* [Installed plug-ins](#plugins)
+* [Installation instructions](#install)
+* [Plug-in installation instructions](#plugin-install)
+* [Plug-in update instructions](#plugin-update)
+* [Plug-in removal instructions](#plugin-remove)
+* [Bindings](#bindings)
+
+<a name=plugins>
 ### Installed plugins
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [ColorSamplePack](http://www.vim.org/scripts/script.php?script_id=625)
@@ -20,6 +28,7 @@
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [Conque](http://code.google.com/p/conque/)
 
+<a name=install>
 ### To install
 1. `git clone git://github.com/tylerdavis/dotvim2.0.git ~/.vim`
 2. Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
@@ -27,20 +36,24 @@
 4. (Optional) For Syntastic, check the bundle/syntastic/syntax_checkers directory for specific required language checkers.  (I use flake8 for python and DoctorJS for javascript)
 5. (Optional) For Conque, download the latest version, run `vim conque_2.3.vmb` and in vim, run `:so %` and restart vim.
 
+<a name=plugin-install>
 ### To install a plug-in (requires pathogen support)
 1. `git submodule add [submodule repository url] bundle/[submodule name]`
 2. Commit changes.
 
+<a name=plugin-update>
 ### To update
 1. `git submodule foreach git pull`
 
+<a name=plugin-remove>
 ### To remove a plug-in submodule
 1. Delete relevant entries from `.gitmodules` and `.git/config` files.
 2. `git rm --cached bundle/[submodule name]` no trailing slash.
 3. Commit changes.
 4. `rm bundle/[submodule name]`
 
-### Mappings
+<a name=bindings>
+### Bindings
 
 #### Normal mode
 * Toggle spell check - `,s`
