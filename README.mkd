@@ -1,6 +1,6 @@
 # Tyler's DotVim2.0
 
-(Installed plug-ins)[installed-plugins]  
+[Installed plug-ins](installed-plugins)  
 [Install instructions][install]  
 [Install plugin][install-plugin]  
 [Update instructions][update]  
