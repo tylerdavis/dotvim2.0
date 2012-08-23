@@ -29,7 +29,7 @@
 * [Conque](http://code.google.com/p/conque/)
 
 <a name=install>
-### To install
+### Installation
 1. `git clone git://github.com/tylerdavis/dotvim2.0.git ~/.vim`
 2. Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
 3. `cd ~/.vim && git submodule init && git submodule update`
@@ -42,7 +42,7 @@
 2. Commit changes.
 
 <a name=plugin-update>
-### To update
+### To update plug-ins
 1. `git submodule foreach git pull`
 
 <a name=plugin-remove>
