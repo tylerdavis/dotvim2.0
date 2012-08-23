@@ -31,6 +31,7 @@
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
+
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/tylerdavis/snipmate.vim.git
