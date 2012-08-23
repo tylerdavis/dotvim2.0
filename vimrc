@@ -30,6 +30,7 @@ set scrolloff=5 " Minumum 5 lines visible above and below cursor line
 set showcmd " Show last command on last line
 set ttyfast " Sends more characters to the terminal for better draw
 
+" Toggle spell check
 nnoremap <leader>s :set spell!<cr>
 
 
@@ -99,8 +100,8 @@ set hlsearch
 " Map ; to :
 nnoremap ; :
 " Map -/_ to move line up and down
-:map - ddp
-:map _ ddkp
+map - ddp
+map _ ddkkp
 
 " Map jj to escape insert mode
 inoremap jj <ESC> 

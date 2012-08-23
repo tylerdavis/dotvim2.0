@@ -1,29 +1,69 @@
-Tyler's DotVim2.0
-=================
+# Tyler's DotVim2.0
 
-Now with Javascript support!
+[Installed plug-ins][installed-plugins]  
+[Install instructions][install]  
+[Install plugin][install-plugin]  
+[Update instructions][update]  
+[Remove a plug-in][remove-plugin]  
+[Mappings][mappings]
 
-My original dotvim project has become incredible shitty and unmanageable.  This project is going to focus on organizing the vimrc, what plugins I *actually* use, and hopefully add some functionality around javascript.
 
-To install
-----------
-1.) `git clone git://github.com/tylerdavis/dotvim2.0.git ~/.vim`  
-2.) Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
+### Installed plugins [installed-plugins]
+* [Pathogen](https://github.com/tpope/vim-pathogen)
+* [ColorSamplePack](http://www.vim.org/scripts/script.php?script_id=625)
+* [Sparkup](https://github.com/rstacruz/sparkup)
+* [NERDTree](https://github.com/scrooloose/nerdtree)
+* [Solarized](https://github.com/altercation/vim-colors-solarized)
+* [Surround](https://github.com/tpope/vim-surround)
+* [ctrlp](https://github.com/kien/ctrlp.vim/)
+* [Powerline](https://github.com/Lokaltog/vim-powerline)
+* [Tagbar](https://github.com/majutsushi/tagbar/)
+* [SnipMate](https://github.com/tylerdavis/snipmate.vim)
+* [Syntastic](https://github.com/scrooloose/syntastic)
+* [Flake8](https://github.com/nvie/vim-flake8)
+* [web-indent](http://www.vim.org/scripts/script.php?script_id=3081)
+* [Vim-node](https://github.com/guileen/vim-node)
+* [AutoClose](https://github.com/vim-scripts/autoclose)
+* [vim-less](https://github.com/groenewege/vim-less)
+* [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 
-Installed plugins
------------------
-* ColorSamplePack - http://www.vim.org/scripts/script.php?script_id=625
-* Pathogen - https://github.com/tpope/vim-pathogen
-* Sparkup - https://github.com/rstacruz/sparkup
-* NERDTree - https://github.com/scrooloose/nerdtree
-* Solarized - https://github.com/altercation/vim-colors-solarized
-* ctrlp - https://github.com/kien/ctrlp.vim/
-* Powerline - https://github.com/Lokaltog/vim-powerline
-* Tagbar - https://github.com/majutsushi/tagbar/
-* SnipMate - https://github.com/tylerdavis/snipmate.vim
-* Syntastic - https://github.com/scrooloose/syntastic
-* web-indent - http://www.vim.org/scripts/script.php?script_id=3081
-* Vim-node - https://github.com/guileen/vim-node
-* AutoClose - https://github.com/vim-scripts/autoclose
-* vim-less - https://github.com/groenewege/vim-less
-* NERDCommenter - https://github.com/scrooloose/nerdcommenter.git
+### To install [install]
+1. `git clone git://github.com/tylerdavis/dotvim2.0.git ~/.vim`
+2. Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
+3. `cd ~/.vim && git submodule init && git submodule update`
+
+### To install a plug-in (requires pathogen support) [install-plugin]
+1. `git submodule add [submodule repository url] bundle/[submodule name]`
+2. Commit changes.
+
+### To update [update]
+1. `git submodule foreach git pull`
+
+### To remove a plug-in submodule [remove-plugin]
+1. Delete relevant entries from `.gitmodules` and `.git/config` files.
+2. `git rm --cached bundle/[submodule name]` no trailing slash.
+3. Commit changes.
+4. `rm bundle/[submodule name]`
+
+### Mappings [mappings]
+
+#### Normal mode
+* Toggle spell check - `,s`
+* Toggle NERDTree - `,n`
+* Toggle line comment state - `,c`
+* Toggle tagbar - `,t`
+* Toggle error window - `,e`
+* Clear search hilights - `,<space>`
+* Split the current window vertically - `,w`
+* Toggle code fold - `<space>`
+* Move a line up or down - `-` or `_`
+* Move between windows - `<ctrl>+h`,`<ctrl>+j`,`<ctrl>+k`,`<ctrl>+l`  
+
+#### Visual mode
+* Create a code fold section - `<space>`
+
+#### Insert mode
+* Escape from insert mode - `jj`
+
+#### Miscellaneous
+* `;` maps to `:`
