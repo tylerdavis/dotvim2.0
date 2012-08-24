@@ -136,6 +136,11 @@ set hlsearch
 nnoremap <leader><space> :noh<cr>
 
 """""""""""""""""""
+" Syntax Checking "
+"""""""""""""""""""
+let g:syntastic_python_checker_args='--ignore=E501'
+
+"""""""""""""""""""
 " Plugin Specific "
 """""""""""""""""""
 
