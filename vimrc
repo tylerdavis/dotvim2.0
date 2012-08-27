@@ -73,7 +73,9 @@ set numberwidth=4 " Set the column width
 " Buffers and Windows "
 """""""""""""""""""""""
 " Split window vertically
-nnoremap <leader>w <C-w>v<C-w>l 
+nnoremap <leader>w <C-w>v
+" Splut window horizontally
+nnoremap <leader>W <C-w>s
 
 """""""""""
 " Tabbing "
@@ -144,8 +146,10 @@ let g:syntastic_python_checker_args='--ignore=E501'
 " Plugin Specific "
 """""""""""""""""""
 
+" Enable NERDTree focus
+nnoremap <leader>n :NERDTreeFocus<cr> 
 " Toggle NERDTree with ,n
-nnoremap <leader>n :NERDTreeToggle<cr>
+" nnoremap <leader>N :NERDTreeToggle<cr>
 " Ignore filetypes in NERDTree
 let NERDTreeIgnore = ['\.pyc$']
 " Toggle line comment in normal mode or selection in visual mode
