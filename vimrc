@@ -105,7 +105,7 @@ map - ddp
 map _ ddkkp
 
 " Map jj to escape insert mode
-inoremap jj <ESC> 
+imap jj <ESC> 
 
 " Map ctrl + movement to switch between windows
 nnoremap <C-h> <C-w>h
