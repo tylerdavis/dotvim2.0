@@ -29,10 +29,19 @@ set hidden " Prevents buffers from being abandoned when navigated away from
 set scrolloff=5 " Minumum 5 lines visible above and below cursor line
 set showcmd " Show last command on last line
 set ttyfast " Sends more characters to the terminal for better draw
+set autowrite " automatically saves before make command is executed
 
 " Toggle spell check
 nnoremap <leader>s :set spell!<cr>
 
+" set <leader>m to :make
+nnoremap <leader>m :make<cr>
+
+
+""""""""""""""""""""""
+" Filetype specifics "
+"""""""""""""""""""""" 
+au FileType ruby set makeprg=ruby\ %
 
 """""""""""""""""""
 " Code Completion "
@@ -44,6 +53,8 @@ set wildmode=list:longest
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 " NodeJS Specific
 au FileType javascript set dictionary+=$HOME/.vim/dict/node.dict
+
+
 
 " Stuff to ingnore
 set wildignore+=*DS_Store*
