@@ -23,7 +23,7 @@
 * [Flake8](https://github.com/nvie/vim-flake8)
 * [web-indent](http://www.vim.org/scripts/script.php?script_id=3081)
 * [Vim-node](https://github.com/guileen/vim-node)
-* [AutoClose](https://github.com/vim-scripts/autoclose)
+* [AutoClose](https://github.com/Townk/vim-autoclose)
 * [vim-less](https://github.com/groenewege/vim-less)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 
