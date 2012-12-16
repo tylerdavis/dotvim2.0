@@ -131,9 +131,6 @@ nnoremap k gk
 " Backspaces in insert mode
 set backspace=indent,eol,start
 
-:imap ( ()<left>
-:imap {<CR> {<CR>}<up><CR><tab>
-
 """"""""""
 " Search "
 """"""""""
