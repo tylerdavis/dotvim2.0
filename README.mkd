@@ -26,7 +26,6 @@
 * [AutoClose](https://github.com/vim-scripts/autoclose)
 * [vim-less](https://github.com/groenewege/vim-less)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
-* [Conque](http://code.google.com/p/conque/)
 
 <a name=install>
 ### Installation
@@ -34,7 +33,6 @@
 2. Create your ~/.vimrc file and add the line `:source ~/.vim/vimrc`
 3. `cd ~/.vim && git submodule init && git submodule update`
 4. (Optional) For Syntastic, check the bundle/syntastic/syntax_checkers directory for specific required language checkers.  (I use flake8 for python and DoctorJS for javascript)
-5. (Optional) For Conque, download the latest version, run `vim conque_2.3.vmb` and in vim, run `:so %` and restart vim.
 
 <a name=plugin-install>
 ### To install a plug-in (requires pathogen support)
