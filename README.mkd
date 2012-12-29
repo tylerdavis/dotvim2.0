@@ -26,6 +26,7 @@
 * [AutoClose](https://github.com/Townk/vim-autoclose)
 * [vim-less](https://github.com/groenewege/vim-less)
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
+* [Fugitive](http://github.com/tpope/vim-fugitive)
 
 <a name=install>
 ### Installation
