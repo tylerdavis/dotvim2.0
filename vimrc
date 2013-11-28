@@ -13,7 +13,7 @@ if has ('gui_running')
         set guioptions-=R
         set guioptions-=l
         set guioptions-=L        
-        set guifont=Monaco:h12
+        set guifont=Ubuntu\ Mono:h12
         set autochdir
 endif
 
@@ -78,7 +78,7 @@ nnoremap <space> za
 " Line numbers "
 """"""""""""""""
 set rnu " Enable relative line numbering
-set numberwidth=4 " Set the column width
+set numberwidth=2 " Set the column width
 
 """""""""""""""""""""""
 " Buffers and Windows "
@@ -92,9 +92,9 @@ nnoremap <leader>W <C-w>s
 " Tabbing "
 """""""""""
 " Python Settings @TODO - Need control statements to handle multiple filetypes
-set tabstop=4 " Tab moves 4 spaces
-set shiftwidth=4 " Autoindent moves 4 spaces
-set softtabstop=4 " Force insert mode tab to 4 spaces
+set tabstop=2 " Tab moves 4 spaces
+set shiftwidth=2 " Autoindent moves 4 spaces
+set softtabstop=2 " Force insert mode tab to 4 spaces
 set expandtab " Tabs are spaces
 
 " Auto-indents when possible

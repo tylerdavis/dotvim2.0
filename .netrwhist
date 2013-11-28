@@ -1,7 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/tylerdavis/.venvs/csticker/www'
-let g:netrw_dirhist_2='/Users/tylerdavis/Development/Projects/mosliders/mosliders'
-let g:netrw_dirhist_3='/Users/tylerdavis/Development/twilio-workshop'
-let g:netrw_dirhist_4='/Users/tylerdavis/.tmp/uopx-test/index.html'
-let g:netrw_dirhist_5='/Users/tylerdavis/tmp/frontend_stuff/test'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/usr/local/include/ImageMagick-6'
+let g:netrw_dirhist_2='/Users/tylerdavis/Development/cardz/config'
