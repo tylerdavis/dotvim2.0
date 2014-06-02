@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/usr/local/include/ImageMagick-6'
 let g:netrw_dirhist_2='/Users/tylerdavis/Development/cardz/config'
+let g:netrw_dirhist_3='/Users/tylerdavis/.vim'
+let g:netrw_dirhist_4='/Users/tylerdavis/Desktop/rbo'
+let g:netrw_dirhist_5='/Users/tylerdavis/ClearSlide/insight'
+let g:netrw_dirhist_6='/Users/tylerdavis/Development/jiveposter'
+let g:netrw_dirhist_7='/Users/tylerdavis/Development'
+let g:netrw_dirhist_8='/Users/tylerdavis/Development/jiveposter'

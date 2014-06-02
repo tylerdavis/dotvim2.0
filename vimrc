@@ -5,7 +5,7 @@ filetype off
 call pathogen#infect()
 call pathogen#helptags()
 
-colorscheme mustang
+colorscheme obsidian2
 
 if has ('gui_running')
         set guioptions-=T
@@ -13,7 +13,7 @@ if has ('gui_running')
         set guioptions-=R
         set guioptions-=l
         set guioptions-=L        
-        set guifont=Ubuntu\ Mono:h12
+        set guifont=Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:h12
         set autochdir
 endif
 
@@ -30,6 +30,7 @@ set scrolloff=5 " Minumum 5 lines visible above and below cursor line
 set showcmd " Show last command on last line
 set ttyfast " Sends more characters to the terminal for better draw
 set autowrite " automatically saves before make command is executed
+set antialias " enable afont aliasing
 
 " Toggle spell check
 nnoremap <leader>s :set spell!<cr>
@@ -131,6 +132,14 @@ nnoremap k gk
 " Backspaces in insert mode
 set backspace=indent,eol,start
 
+" Multi-select
+let g:multi_cursor_next_key='<D-d>'
+
+" Insert mode newline before cursor
+inoremap <S-D-CR> <Esc>O
+" Insert mode newline before cursor
+inoremap <D-CR> <Esc>o
+
 """"""""""
 " Search "
 """"""""""
@@ -171,3 +180,5 @@ nnoremap <leader>t :TagbarToggle<CR>
 autocmd FileType python map <buffer> <leader>p :call Flake8()<CR>
 " Open Errors window with ,s
 nnoremap <leader>e :Errors<CR><C-w>j
+
+set rtp+=/Users/tylerdavis/Development/powerline/powerline/bindings/vim

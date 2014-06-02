@@ -9,24 +9,25 @@
 
 <a name=plugins>
 ### Installed plugins
-* [Pathogen](https://github.com/tpope/vim-pathogen)
+* [AutoClose](https://github.com/Townk/vim-autoclose)
 * [ColorSamplePack](http://www.vim.org/scripts/script.php?script_id=625)
-* [Sparkup](https://github.com/rstacruz/sparkup)
+* [ctrlp](https://github.com/kien/ctrlp.vim/)
+* [endwise](https://github.com/tpope/vim-endwise)
+* [Flake8](https://github.com/nvie/vim-flake8)
+* [Fugitive](http://github.com/tpope/vim-fugitive)
+* [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
 * [NERDTree](https://github.com/scrooloose/nerdtree)
+* [Pathogen](https://github.com/tpope/vim-pathogen)
+* [Powerline](https://github.com/Lokaltog/powerline)
+* [Sparkup](https://github.com/rstacruz/sparkup)
 * [Solarized](https://github.com/altercation/vim-colors-solarized)
 * [Surround](https://github.com/tpope/vim-surround)
-* [ctrlp](https://github.com/kien/ctrlp.vim/)
-* [Powerline](https://github.com/Lokaltog/vim-powerline)
-* [Tagbar](https://github.com/majutsushi/tagbar/)
 * [SnipMate](https://github.com/tylerdavis/snipmate.vim)
 * [Syntastic](https://github.com/scrooloose/syntastic)
-* [Flake8](https://github.com/nvie/vim-flake8)
-* [web-indent](http://www.vim.org/scripts/script.php?script_id=3081)
+* [Tagbar](https://github.com/majutsushi/tagbar/)
 * [Vim-node](https://github.com/guileen/vim-node)
-* [AutoClose](https://github.com/Townk/vim-autoclose)
-* [vim-less](https://github.com/groenewege/vim-less)
-* [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
-* [Fugitive](http://github.com/tpope/vim-fugitive)
+* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+* [web-indent](http://www.vim.org/scripts/script.php?script_id=3081)
 
 <a name=install>
 ### Installation
